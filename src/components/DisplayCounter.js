@@ -1,9 +1,9 @@
-import { useRecoilState } from "recoil";
+import { useRecoilValue } from "recoil";
 import counterAtom from "../atoms/counterAtom";
 
 function DisplayCounter() {
-  const [counter] = useRecoilState(counterAtom);
-  return <div>{counter}</div>;
+  const counter = useRecoilValue(counterAtom);
+  return <div>Counter: {counter}</div>;
 }
 
 export default DisplayCounter;
