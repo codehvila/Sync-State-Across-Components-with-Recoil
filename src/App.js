@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import DisplayCounter from "./components/DisplayCounter";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          <Counter />
+          <DisplayCounter />
+        </p>
       </header>
     </div>
   );
