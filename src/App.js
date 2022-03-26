@@ -19,10 +19,10 @@ function App() {
         >
           Learn React
         </a>
-        <p>
+        <div>
           <Counter />
           <DisplayCounter />
-        </p>
+        </div>
       </header>
     </div>
   );
