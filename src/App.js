@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import DisplayCounter from "./components/DisplayCounter";
 import Counter from "./components/Counter";
+import Square from "./components/Square";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <div>
           <Counter />
           <DisplayCounter />
+          <Square />
         </div>
       </header>
     </div>
